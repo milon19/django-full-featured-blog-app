@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1385d7fa-d472-42c5-af62-0906fd4480a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/blog/post_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/post_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/post_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/users/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
@@ -13,6 +13,9 @@
       <change beforePath="$PROJECT_DIR$/blog_site/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_site/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/post_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/post_confirm_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/post_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/post_form.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +140,8 @@
       <workItem from="1573583941033" duration="7619000" />
       <workItem from="1573640938415" duration="3375000" />
       <workItem from="1573729974780" duration="1820000" />
-      <workItem from="1573743335009" duration="9381000" />
+      <workItem from="1573743335009" duration="11137000" />
+      <workItem from="1573834262345" duration="1115000" />
     </task>
     <servers />
   </component>

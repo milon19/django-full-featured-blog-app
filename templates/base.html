@@ -34,7 +34,7 @@
                                 <h class="navbar-text nav-item ml-3">Welcome, @{{ user.username }}</h>
                             {% else %}
                                 <a class="nav-item nav-link" href="#">Login</a>
-                                <a class="nav-item nav-link" href="#">Register</a>
+                                <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
                             {% endif %}
                         </div>
                     </div>
