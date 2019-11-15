@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1385d7fa-d472-42c5-af62-0906fd4480a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/users/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/users/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_site/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_site/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog_site/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_site/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -134,7 +138,7 @@
       <workItem from="1573640938415" duration="3375000" />
       <workItem from="1573729974780" duration="1820000" />
       <workItem from="1573743335009" duration="11137000" />
-      <workItem from="1573834262345" duration="4567000" />
+      <workItem from="1573834262345" duration="6240000" />
     </task>
     <servers />
   </component>
