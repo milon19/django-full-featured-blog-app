@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1385d7fa-d472-42c5-af62-0906fd4480a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/profile_pics/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/profile_pics/20191029_224839.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/profile_pics/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/profile_pics/4_VlYen29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_pics/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_pics/2_WIv7YJk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_pics/4_Buk6rNF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/signals.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_site/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_site/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile_pics/20191029_224839.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/profile_pics/20191029_224839.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
@@ -73,8 +68,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -143,7 +138,7 @@
       <workItem from="1573640938415" duration="3375000" />
       <workItem from="1573729974780" duration="1820000" />
       <workItem from="1573743335009" duration="11137000" />
-      <workItem from="1573834262345" duration="6908000" />
+      <workItem from="1573834262345" duration="8332000" />
     </task>
     <servers />
   </component>

@@ -12,13 +12,13 @@ def register(request):
         form = UserRegistrationForm(request.POST)
         if form.is_valid():
             form.save()
-            username = form.changed_data.get('username')
+            username = form.cleaned_data.get('username')
             messages.success(request, f'Welcome {username}! Login Here.')
             messages.warning(request, f'You need to update your profile')
             return redirect('login')
 
     else:
-        form = UserRegistrationForm
+        form = UserRegistrationForm()
     return render(request, 'users/registration.html', {'form':form})
 
 
