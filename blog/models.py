@@ -21,7 +21,10 @@ class Comments(models.Model):
     post = models.ForeignKey(Post, related_name='comments', on_delete=models.CASCADE)
     comment_date = models.DateTimeField(default=timezone.now)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
-    comment_body = models.TextField(blank=True, null=True)
+    comment_body = models.TextField()
 
     def __str__(self):
         return f"'{self.author}' comments in '{self.post}'"
+
+    def get_absolute_url(self):
+        return reverse('post-detail', kwargs={'pk': self.post.pk})
