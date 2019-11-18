@@ -34,62 +34,41 @@
             <div class="media-body">
                 <!--Heading-->
                 <div class="article-metadata">
-                    <h5 class="mb-auto">
+                    <h5 class="mb-3">
                         Comments of <b class="text-info">{{ object.title }}</b>
+                        <a href="#" class="btn btn-success btn-sm float-right">Add Comment</a>
                     </h5>
+
                 </div>
                 <!--Comment of a User-->
-                <div class="mt-3">
-                    <article class="media content-section">
-                        <div class="media-body">
-                             <div class="float-right mt-auto">
-                                <small>
-                                    {% if object.author == user %}
-                                        <a href="#comments" class="mr-1">Update</a>
-                                        <a href="#comments" class="mr-1">Remove</a>
-                                    {% endif %}
-                                </small>
-                            </div>
-                            <div class="article-metadata mt-md-4">
-                                <p>
-                                    Comments by <a class="mr-2" href="#">@{{ post.author }}</a>
-                                    <small class="text float-right">
-                                        {{ object.date_posted|date:'l, d M, Y' }}
-                                    </small>
+                {% for foo in object.comments.all %}
+                    <div class="mt-3">
+                        <article class="media content-section">
+                            <div class="media-body">
+                                {% if foo.author == user %}
+                                    <div class= "mb-md-4">
+                                        <small>
+                                                <a href="#comments" class="float-right">Update</a>
+                                                <a href="#comments" class="float-right mr-2">Remove</a>
+                                        </small>
+                                    </div>
+                                {% endif %}
+                                <div class="article-metadata mt-auto">
+                                    <p>
+                                        Comments by <a class="mr-2" href="#">@{{ foo.author }}</a>
+                                        <small class="text float-right">
+                                            {{ foo.comment_date|date:'l, d M, Y  h:i A' }}
+                                        </small>
 
-                                </p>
+                                    </p>
+                                </div>
+                                <!--Comments-->
+                                <h3 class="text-wrap"> {{foo.comment_body}} </h3>
                             </div>
-                            <!--Comments-->
-                            <h2>Comments is here</h2>
-                        </div>
-                    </article>
-                </div>
+                        </article>
+                    </div>
+                {% endfor %}
 
-                <div class="mt-3">
-                    <article class="media content-section">
-                        <div class="media-body">
-                             <div class="float-right mt-auto">
-                                <small>
-                                    {% if object.author == user %}
-                                        <a href="#comments" class="mr-1">Update</a>
-                                        <a href="#comments" class="mr-1">Remove</a>
-                                    {% endif %}
-                                </small>
-                            </div>
-                            <div class="article-metadata mt-md-4">
-                                <p>
-                                    Comments by <a class="mr-2" href="#">@{{ post.author }}</a>
-                                    <small class="text float-right">
-                                        {{ object.date_posted|date:'l, d M, Y' }}
-                                    </small>
-
-                                </p>
-                            </div>
-                            <!--Comments-->
-                            <h2>Comments is here</h2>
-                        </div>
-                    </article>
-                </div>
                 <!--End Comment of a User-->
             </div>
         </article>
